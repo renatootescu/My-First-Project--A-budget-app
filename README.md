@@ -1,6 +1,6 @@
 # A budget application
 
-## This is my first coding/dev projec in the last 12 years
+## This is my first coding/dev project in the last 12 years
 
 This is a simple app that lets you track your budget comparing Planned amounts vs Actual amounts for expenses, revenue and savings.
 
