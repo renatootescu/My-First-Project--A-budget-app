@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+    <div class="media">
+        <img class="rounded-circle account-img" src="{{ url_for('static', filename='default.jpg') }}">
+        <div class="media-body">
+          <h2 class="account-heading">{{ current_user.username }}</h2>
+          <p class="text-secondary">{{ current_user.email }}</p>
+        </div>
+    </div>
+<body>
+    <figure>
+        <embed type="image/svg+xml" src={{graph_data|safe}} />
+        <embed type="image/svg+xml" src={{graph_all_data|safe}} />
+    </figure>
+</body>
+{% endblock content %}
