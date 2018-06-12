@@ -4,8 +4,9 @@
 
 This is a simple app that lets you track your budget comparing Planned amounts vs Actual amounts for expenses, revenue and savings.
 
-The user enters the data in forms generated with the Python Flask module, rendered in HTML and saved in a SQALchemy database 
-The data can be seen/updated/deleted in 2 tables and it is visualized on the front page through SVG graphs generated with the PYGAL Python module:
+The user enters the new Budget and Actuals details in forms generated with the Python Flask module, which are rendered in HTML. The data is then saved in a SQALchemy database.
+
+The Budget and Actual details can be seen/updated/deleted in 2 tables. Also, they are visualized on the front page through SVG graphs generated with the PYGAL Python module, which pulls the data directly from the database.
 
 ![alt text](https://i.imgur.com/WJDmvf8.jpg)
 ![alt text](https://i.imgur.com/zeegh0I.jpg)
