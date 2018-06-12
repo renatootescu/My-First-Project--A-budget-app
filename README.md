@@ -16,3 +16,5 @@ The application also supports user registering, reseting user password, updating
 
 The back-end is built in Python 3.6.5, with Flask 1.0.2 module, Pygal module, SQLAlchemy module and a few other smaller modules.
 
+Note: to run the application you will need to set up environment varialbles. See config.py for more details
+
